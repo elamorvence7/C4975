@@ -18,6 +18,9 @@ body {
     "footer footer footer"
     ;
 }
+body { 
+    margin: 0%;
+}
 
 header {
     grid-area: header;
@@ -84,9 +87,8 @@ header {
 header nav ul {
     font-family: "Vollkorn";
     color:black
-    
-    
 }
+
 header nav h1 {
     color:darkgreen;
     font-family: 'Courgette', cursive;
@@ -159,16 +161,8 @@ footer ul li {
     list-style-type: none;
     font-family: "Vollkorn";
     text-align: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
-
-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 
 a {
     color:black;   
@@ -361,5 +355,11 @@ form div {
         margin-top: 5px;
         padding: 2px 3px;       
     }
+    footer ul li {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
 
 }
