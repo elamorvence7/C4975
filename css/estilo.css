@@ -42,8 +42,8 @@ nav h1 {
 ul {
     display: flex;
     justify-content: end;
-
 }
+
 main {
     background-color: rgba(154, 204, 54, 0.897);
 }
@@ -344,11 +344,14 @@ form div {
     #imageninicio {
         flex-basis: 100%; 
     }
-
-    #menu nav {
+    
+    footer ul li {
         flex-direction: column;
-        
+        justify-content: center;
+        align-items: center;
     }
+    
+
 }
 
 @media (max-width: 610px) {
