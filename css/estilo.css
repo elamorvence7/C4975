@@ -153,15 +153,20 @@ footer span img {
 }
 
 footer ul li { 
-    border-radius: 10px;
-    margin-top: 5px;
-    padding: 2px 3px;
-    background-color: rgba(238, 144, 12, 0.486);
-    margin-inline: 10px;
+   
+    
     list-style-type: none;
     font-family: "Vollkorn";
     text-align: center;
     justify-content: center;   
+}
+
+footer ul li a { 
+    background-color: rgba(238, 144, 12, 0.486);
+    margin-top: 20px;
+    margin-inline: 10px;
+    border-radius: 5px;
+    padding: 2px 3px;
 }
 
 a {
@@ -265,6 +270,7 @@ main section div img {
 #galeria h4 {
     margin: 15px;
 }
+
 #cantos img {
     width: 60px;
     height: 50px;
@@ -346,16 +352,16 @@ form div {
         flex-basis: 100%; 
     }
 
-    footer ul li {
+    footer ul li a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    footer ul{
+    footer ul {
         padding: 0%;
     }
-    
+
     footer span {
         padding: 0px;
     } 
