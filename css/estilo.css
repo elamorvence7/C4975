@@ -188,6 +188,7 @@ p {
 #tipodeaves {
     font-size: 20px;
     margin-block-end: 20px;
+    padding: 10px;
 }
 
 #tipodeaves p {
@@ -262,7 +263,7 @@ main section div img {
     grid-area: main;   
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap; 
+    flex-wrap: wrap; 
     flex-basis: 100%;
 }
 
@@ -282,7 +283,6 @@ main section div img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    flex-basis: 100%;
     padding: 15px;
 }
 #cantos section div {
@@ -299,7 +299,6 @@ main section div img {
     justify-content: center;
     margin-block-start: 20px;
     padding: 30px;
-    
 }
 
 #contacto {
@@ -308,12 +307,19 @@ main section div img {
     flex-direction: column;
     flex-wrap: wrap; 
 }
-#mensaje {
-    height: 60px;
-    width: 60px;
+
+#contacto fieldset {
+    color: black;
 }
 
+form div {
+    padding: 15px;
+}
 
+#mensaje {
+    height: 150px;
+    width: 300px;
+}
 
 @media (max-width: 1024px) {
     ul {
@@ -346,7 +352,7 @@ main section div img {
     }
 }
 
-@media (max-width: 610px){
+@media (max-width: 610px) {
 
     ul {
         flex-direction: column;
@@ -355,4 +361,5 @@ main section div img {
         margin-top: 5px;
         padding: 2px 3px;       
     }
+
 }
