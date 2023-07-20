@@ -45,7 +45,7 @@ ul {
 }
 
 main {
-    background-color: rgba(154, 204, 54, 0.897);
+    background-color: rgba(154, 204, 54, 0.521);
 }
 
 #inicio {
@@ -183,6 +183,7 @@ p {
     font-size: 20px;
     margin-block-end: 20px;
     padding: 10px;
+    margin-bottom: 0px;
 }
 
 #tipodeaves p {
@@ -344,13 +345,18 @@ form div {
     #imageninicio {
         flex-basis: 100%; 
     }
-    
+
     footer ul li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
+    footer {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
 
 }
 
@@ -363,11 +369,5 @@ form div {
         margin-top: 5px;
         padding: 2px 3px;       
     }
-    footer ul li {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
    
-
 }
