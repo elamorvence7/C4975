@@ -1,0 +1,19 @@
+#contacto {
+    grid-area: main;   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+#contacto fieldset {
+    color: black;
+}
+
+form div {
+    padding: 15px;
+}
+
+#mensaje {
+    height: 150px;
+    width: 300px;
+}

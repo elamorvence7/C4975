@@ -1,0 +1,26 @@
+#tipodeaves {
+    grid-area: main;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-block-end: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+#tipodeaves p {
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+#titulo2 {
+    flex-basis: 100%;
+}
+
+main section div img {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}

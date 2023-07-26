@@ -1,0 +1,30 @@
+#cantos img {
+    width: 60px;
+    height: 50px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#cantos {
+    grid-area: main;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding: 15px;
+}
+#cantos section div {
+    padding: 20px;
+}
+
+.orden {
+    flex-direction: row;
+}
+
+#cantos section h3 {
+    flex-basis: 100%;
+    text-align: start;
+    justify-content: center;
+    margin-block-start: 20px;
+    padding: 30px;
+}

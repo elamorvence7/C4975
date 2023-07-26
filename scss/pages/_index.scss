@@ -1,0 +1,31 @@
+#inicio {
+    grid-area: main;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;   
+}
+
+#descripcióndepágina {
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+#descripcióndepágina p {
+    margin: 30px;
+}
+
+#imageninicio {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageninicio img {
+    margin: 30px;
+    width: 300px;
+}
