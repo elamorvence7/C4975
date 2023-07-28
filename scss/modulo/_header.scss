@@ -27,8 +27,9 @@ nav ul li a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav ul li a:hover {
-    color: white;
+nav ul li a {
+    &:hover
+    {color:beige;}
 }
 
 nav {

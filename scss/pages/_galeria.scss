@@ -1,65 +1,67 @@
 #galeria {
-    grid-area: main;   
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap; 
-    flex-basis: 100%;
-    justify-content: center;
-    align-items: baseline;
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+  padding: 15px;
 }
 
 .gal {
-    width: 250px;
-    height: 200px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    margin: auto;
-    
-}
-
-.gal {
-    flex-basis: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 250px;
+  height: 430px;
+  padding: 5px;
+  flex-basis: 30%;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+  margin: auto;
 }
 
 #titulo3 {
-    flex-basis: 100%;
+  flex-basis: 100%;
+
+}
+.aves2 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin: auto;
 }
 
-.aves2 {
-    flex-basis: 100%;
-    grid-area: main;   
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.aves2 div img {
+  width: 250px;
+  height: 200px;
+  padding: 5px;
+  flex-basis: 30%;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+  margin: auto;
 }
 
 .aves2 div {
-    padding: 40px;
+  padding: 40px 30px;
+  justify-content: center;
+  text-align: justify;
+  margin: 10px;
 }
 
-#galeria section h3 {
-    flex-basis: 100%;
-    text-align: center;
-    justify-content: center;
-}
-
-.orden {
-    grid-area: main;   
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    flex-basis: 100%;
+.aves2 h3 {
+  flex-basis: 100%;
+  justify-content: center;
+  margin-block-start: 20px;
+  padding: 30px;
 }
 
 #galeria h4 {
-    margin: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
 }

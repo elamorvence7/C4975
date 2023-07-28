@@ -1,5 +1,283 @@
 @charset "UTF-8";
+@import "../css/style.css";
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+header {
+  grid-area: header;
+  background-color: khaki;
+}
+
+header nav ul {
+  font-family: "Vollkorn";
+  color: black;
+}
+
+header nav h1 {
+  color: darkgreen;
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  text-align: center;
+  padding: 50px;
+}
+
+nav ul li a {
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 2px 3px;
+  background-color: rgba(238, 144, 12, 0.486);
+  margin-inline: 15px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav ul li a:hover {
+  color: beige;
+}
+
+nav {
+  grid-area: nav;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+nav h1 {
+  height: 70%;
+  justify-content: center;
+}
+
+footer {
+  grid-area: footer;
+  background-color: khaki;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer span img {
+  padding: 5px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+footer ul li {
+  list-style-type: none;
+  font-family: "Vollkorn";
+  text-align: center;
+  justify-content: center;
+}
+
+footer ul li a {
+  background-color: rgba(238, 144, 12, 0.486);
+  margin-top: 20px;
+  margin-inline: 10px;
+  border-radius: 5px;
+  padding: 2px 3px;
+}
+
+#contacto {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#contacto fieldset {
+  color: black;
+}
+
+form div {
+  padding: 15px;
+}
+
+#mensaje {
+  height: 150px;
+  width: 300px;
+}
+
+#inicio {
+  grid-area: main;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#descripcióndepágina {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+#descripcióndepágina p {
+  margin: 30px;
+  font-size: 25px;
+}
+
+#imageninicio {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imageninicio img {
+  margin: 30px;
+  width: 300px;
+}
+
+#galeria {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+  padding: 15px;
+}
+
+.gal {
+  width: 250px;
+  height: 430px;
+  padding: 5px;
+  flex-basis: 30%;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+  margin: auto;
+}
+
+#titulo3 {
+  flex-basis: 100%;
+}
+
+.aves2 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin: auto;
+}
+
+.aves2 div img {
+  width: 250px;
+  height: 200px;
+  padding: 5px;
+  flex-basis: 30%;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+  margin: auto;
+}
+
+.aves2 div {
+  padding: 40px 30px;
+  justify-content: center;
+  text-align: justify;
+  margin: 10px;
+}
+
+.aves2 h3 {
+  flex-basis: 100%;
+  justify-content: center;
+  margin-block-start: 20px;
+  padding: 30px;
+}
+
+#galeria h4 {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+#tipodeaves {
+  grid-area: main;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin-block-end: 20px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+#tipodeaves p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#titulo2 {
+  flex-basis: 100%;
+  text-align: left;
+}
+
+#tipodeaves section div {
+  width: 250px;
+  height: 200px;
+}
+
+.orden {
+  grid-area: main;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 100%;
+}
+
+#cantos img {
+  width: 60px;
+  height: 50px;
+  padding: 1px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#cantos {
+  grid-area: main;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+#cantos section div {
+  padding: 10px;
+}
+#cantos section div:hover {
+  transform: scale(1.2);
+}
+
+#cantos section h3 {
+  flex-basis: 100%;
+  text-align: start;
+  justify-content: center;
+  margin-block-start: 20px;
+  padding: 30px;
+}
+
 @font-face {
   font-family: "Vollkorn";
   src: url(../assets/Vollkorn-Italic-VariableFont_wght.ttf);
@@ -23,6 +301,7 @@ h1:hover {
 
 h2 {
   padding: 15px;
+  font-size: 40px;
 }
 
 main {
@@ -92,267 +371,5 @@ a {
     padding: 2px 3px;
   }
 }
-header {
-  grid-area: header;
-  background-color: khaki;
-}
 
-header nav ul {
-  font-family: "Vollkorn";
-  color: black;
-}
-
-header nav h1 {
-  color: darkgreen;
-  font-family: "Courgette", cursive;
-  font-size: 60px;
-  text-align: center;
-  padding: 50px;
-}
-
-nav ul li a {
-  border-radius: 5px;
-  margin-top: 20px;
-  padding: 2px 3px;
-  background-color: rgba(238, 144, 12, 0.486);
-  margin-inline: 15px;
-  font-size: 25px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-nav ul li a:hover {
-  color: white;
-}
-
-nav {
-  grid-area: nav;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
-nav h1 {
-  height: 70%;
-  justify-content: center;
-}
-
-#contacto {
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-#contacto fieldset {
-  color: black;
-}
-
-form div {
-  padding: 15px;
-}
-
-#mensaje {
-  height: 150px;
-  width: 300px;
-}
-
-footer {
-  grid-area: footer;
-  background-color: khaki;
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 1.2rem;
-}
-
-#menu ul {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-
-footer h3 {
-  text-align: center;
-}
-
-footer span img {
-  padding: 5px;
-  height: 60px;
-  width: 60px;
-}
-
-footer ul li {
-  list-style-type: none;
-  font-family: "Vollkorn";
-  text-align: center;
-  justify-content: center;
-}
-
-footer ul li a {
-  background-color: rgba(238, 144, 12, 0.486);
-  margin-top: 20px;
-  margin-inline: 10px;
-  border-radius: 5px;
-  padding: 2px 3px;
-}
-
-#inicio {
-  grid-area: main;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-#descripcióndepágina {
-  flex-basis: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-}
-
-#descripcióndepágina p {
-  margin: 30px;
-}
-
-#imageninicio {
-  flex-basis: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#imageninicio img {
-  margin: 30px;
-  width: 300px;
-}
-
-#tipodeaves {
-  grid-area: main;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-size: 20px;
-  margin-block-end: 20px;
-  padding: 10px;
-  margin-bottom: 0px;
-}
-
-#tipodeaves p {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-#titulo2 {
-  flex-basis: 100%;
-}
-
-main section div img {
-  width: 250px;
-  height: 200px;
-  padding: 10px;
-  border-radius: 10%;
-}
-
-#galeria {
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.gal {
-  width: 250px;
-  height: 200px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  margin: auto;
-}
-
-.gal {
-  flex-basis: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#titulo3 {
-  flex-basis: 100%;
-}
-
-.aves2 {
-  flex-basis: 100%;
-  grid-area: main;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.aves2 div {
-  padding: 40px;
-}
-
-#galeria section h3 {
-  flex-basis: 100%;
-  text-align: center;
-  justify-content: center;
-}
-
-.orden {
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-}
-
-#galeria h4 {
-  margin: 15px;
-}
-
-#cantos img {
-  width: 60px;
-  height: 50px;
-  padding: 1px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-
-#cantos {
-  grid-area: main;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 15px;
-}
-
-#cantos section div {
-  padding: 20px;
-}
-
-.orden {
-  flex-direction: row;
-}
-
-#cantos section h3 {
-  flex-basis: 100%;
-  text-align: start;
-  justify-content: center;
-  margin-block-start: 20px;
-  padding: 30px;
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
