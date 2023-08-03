@@ -1,7 +1,7 @@
 
 header {
     grid-area: header;
-    background-color:khaki;
+    background-color: $c-khaki;
 }
 
 header nav ul {
@@ -21,7 +21,7 @@ nav ul li a {
     border-radius: 5px;
     margin-top: 20px;
     padding: 2px 3px;
-    background-color: rgba(238, 144, 12, 0.486);
+    background-color: $c-marron;
     margin-inline: 15px;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;

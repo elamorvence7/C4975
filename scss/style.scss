@@ -1,5 +1,7 @@
 @import "./modulo/variables";
+@import "./modulo/mixins";
 @import "../css/style.css";
+@import "./modulo/main";
 @import "./modulo/header"; 
 @import "./modulo/footer";
 @import "./modulo/contacto";
@@ -16,123 +18,5 @@
     src: url(../assets/Vollkorn-Italic-VariableFont_wght.ttf);
 }
 
-body { 
-    height: 100vh;
-    display: grid ;
-    flex-wrap: wrap;
-    margin: 0%;
-    grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows: 1fr repeat(2,2fr) 1fr;
-    grid-template-areas: 
-    "header header header"
-    "main main main"
-    "footer footer footer"
-    ;
-}
 
-h1 {
-    transition: transform 4s linear; 
-    &:hover {
-        transform: scale(2);
-    }
-}
-
-h2 {
-    padding: 15px;
-    font-size: 40px;
-}
-
-main {
-    background-color: rgba(154, 204, 54, 0.521);
-}
-
-ul {
-    display: flex;
-    justify-content: end;
-}
-
-li {
-    display: inline-block;
-     
-}
-
-p {
-    font-size: 16px
-}
-
-a { text-decoration: none;
-    list-style-type: none; 
-    color:black;   
-}
-
-@media (max-width: 1600) {
-    .aves2 div {
-        background-color: black;
-    }
-}
-
-@media (max-width: 1024px) {
-    ul {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 768px) {
-   
-    ul {
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    ul li {
-        margin-top: 5px;
-        padding: 2px 3px;       
-    }
-
-    #inicio {
-       flex-direction: column;
-    }
-    
-    #descripcióndepágina {
-        flex-basis: 100%;
-    }
-    
-    #imageninicio {
-        flex-basis: 100%; 
-    }
-
-    footer ul li a {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer ul {
-        padding: 0%;
-    }
-
-    footer span {
-        padding: 0px;
-    } 
-
-}
-
-@media (max-width: 610px) {
-
-    ul {
-        flex-direction: column;
-    }
-
-    ul li {
-        margin-top: 5px;
-        padding: 2px 3px;       
-    }
-   
-}
-
-@media (max-width: 332) {
-    #cantos {
-        padding: 0px;
-    }
-}
 

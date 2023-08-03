@@ -1,0 +1,10 @@
+@mixin media {
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin centrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}

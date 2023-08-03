@@ -1,9 +1,7 @@
 
 #tipodeaves {
     grid-area: main;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include centrado; 
     justify-content: center;
     text-align: center;
     font-size: 20px;
@@ -13,7 +11,7 @@
 }
 
 #tipodeaves p {
-    font-size: 25px; 
+    font-size: $tamaño-fuente; 
     margin-top: 10px;
 }
 

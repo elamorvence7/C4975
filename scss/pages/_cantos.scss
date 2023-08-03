@@ -1,8 +1,6 @@
 .orden {
     grid-area: main;   
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
+    @include centrado;
     justify-content: space-around;
     flex-basis: 100%;
 }
