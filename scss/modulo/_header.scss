@@ -4,6 +4,13 @@ header {
     background-color: $c-khaki;
 }
 
+h1 {
+    transition: transform 4s linear; 
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
 header nav ul {
     font-family: "Vollkorn";
     color:black

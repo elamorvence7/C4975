@@ -11,13 +11,6 @@ body {
   grid-template-areas: "header header header" "main main main" "footer footer footer";
 }
 
-h1 {
-  transition: transform 4s linear;
-}
-h1:hover {
-  transform: scale(2);
-}
-
 h2 {
   padding: 15px;
   font-size: 40px;
@@ -96,6 +89,9 @@ a {
   body {
     grid-template-columns: none;
   }
+  #descripcióndepágina p {
+    margin: 0px;
+  }
   #cantos {
     padding: 0px;
   }
@@ -103,6 +99,13 @@ a {
 header {
   grid-area: header;
   background-color: khaki;
+}
+
+h1 {
+  transition: transform 4s linear;
+}
+h1:hover {
+  transform: scale(1.5);
 }
 
 header nav ul {
@@ -225,7 +228,7 @@ form div {
 }
 
 #descripcióndepágina p {
-  margin: 30px;
+  margin: 0px 20px;
   font-size: 25px;
 }
 

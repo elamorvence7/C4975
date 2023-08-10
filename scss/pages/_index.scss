@@ -1,6 +1,6 @@
 #inicio {
     grid-area: main;   
-   @include centrado; 
+    @include centrado; 
 }
 
 #descripcióndepágina {
@@ -12,7 +12,7 @@
 }
 
 #descripcióndepágina p {
-    margin: 30px;
+    margin: 0px 20px;
     font-size: $tamaño-fuente;
 }
 
