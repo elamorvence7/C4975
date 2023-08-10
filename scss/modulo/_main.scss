@@ -101,6 +101,10 @@ a { text-decoration: none;
         grid-template-columns: none;
    }
 
+   #descripcióndepágina {
+        flex-basis: 100px;
+   }
+
    #descripcióndepágina p {
         margin: 0px;
    }

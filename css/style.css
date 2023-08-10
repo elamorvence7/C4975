@@ -89,6 +89,9 @@ a {
   body {
     grid-template-columns: none;
   }
+  #descripcióndepágina {
+    flex-basis: 0px;
+  }
   #descripcióndepágina p {
     margin: 0px;
   }
