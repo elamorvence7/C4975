@@ -49,6 +49,11 @@ a { text-decoration: none;
     ul {
         justify-content: center;
     }
+
+    #inicio {
+        justify-content: center;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -112,4 +117,14 @@ a { text-decoration: none;
     #cantos {
         padding: 0px;
     }
+
+    #contacto {
+        padding: 0px;
+        grid-area: none;
+    }
+
+    #contacto fieldset {
+        border: none;
+    }
+
 }

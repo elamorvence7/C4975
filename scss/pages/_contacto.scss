@@ -1,3 +1,27 @@
 #contacto {
-    font-size: $tamaño-fuente;
-}
+        font-size: $tamaño-fuente;
+        grid-area: main;   
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+    }
+
+        fieldset {
+            border-color:  black;
+            border-radius: 10px;
+        }
+    
+            div input {
+                border-radius: 15px;
+            }
+
+                form div {
+                     padding: 10px;
+                    }
+    
+                    #mensaje {  
+                        height: 200px;
+                        width: 350px;
+                        }

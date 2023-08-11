@@ -48,6 +48,9 @@ a {
   ul {
     justify-content: center;
   }
+  #inicio {
+    justify-content: center;
+  }
 }
 @media (max-width: 768px) {
   ul {
@@ -97,6 +100,13 @@ a {
   }
   #cantos {
     padding: 0px;
+  }
+  #contacto {
+    padding: 0px;
+    grid-area: none;
+  }
+  #contacto fieldset {
+    border: none;
   }
 }
 header {
@@ -193,26 +203,6 @@ footer ul li a {
   margin-inline: 10px;
   border-radius: 5px;
   padding: 2px 3px;
-}
-
-#contacto {
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-#contacto fieldset {
-  color: black;
-}
-
-form div {
-  padding: 15px;
-}
-
-#mensaje {
-  height: 150px;
-  width: 300px;
 }
 
 #inicio {
@@ -386,6 +376,30 @@ form div {
 
 #contacto {
   font-size: 25px;
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+fieldset {
+  border-color: black;
+  border-radius: 10px;
+}
+
+div input {
+  border-radius: 15px;
+}
+
+form div {
+  padding: 10px;
+}
+
+#mensaje {
+  height: 200px;
+  width: 350px;
 }
 
 @font-face {
