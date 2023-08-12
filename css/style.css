@@ -88,9 +88,12 @@ a {
     padding: 2px 3px;
   }
 }
-@media (max-width: 332) {
+@media (max-width: 332px) {
   body {
     grid-template-columns: none;
+  }
+  #tipodeaves {
+    display: none;
   }
   #descripcióndepágina {
     flex-basis: 100px;
@@ -103,9 +106,8 @@ a {
   }
   #contacto {
     padding: 0px;
-    grid-area: none;
   }
-  #contacto fieldset {
+  fieldset {
     border: none;
   }
 }

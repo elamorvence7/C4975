@@ -100,31 +100,34 @@ a { text-decoration: none;
     }
 }
 
-@media (max-width: 332) {
+@media (max-width: 332px) {
 
-   body {
-        grid-template-columns: none;
-   }
-
-   #descripcióndepágina {
-        flex-basis: 100px;
-   }
-
-   #descripcióndepágina p {
-        margin: 0px;
-   }
-
-    #cantos {
-        padding: 0px;
+    body {
+         grid-template-columns: none;
     }
-
-    #contacto {
-        padding: 0px;
-        grid-area: none;
+ 
+    #tipodeaves {
+         display: none;
     }
-
-    #contacto fieldset {
-        border: none;
+ 
+    #descripcióndepágina {
+         flex-basis: 100px;
     }
-
-}
+ 
+    #descripcióndepágina p {
+         margin: 0px;
+    }
+ 
+     #cantos {
+         padding: 0px;
+     }
+ 
+     #contacto {
+         padding: 0px;
+     }
+ 
+     fieldset {
+         border: none;
+     }
+ 
+ }
